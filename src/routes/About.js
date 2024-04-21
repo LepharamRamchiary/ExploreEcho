@@ -1,7 +1,17 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import AboutImage from "../assets/about.webp";
+
 function About (){
     return (
         <>
-            <h1>This is our About</h1>
+            <Navbar />
+            <Hero
+                cName="hero-mid"
+                heroImg={AboutImage}
+                title="About"
+                btnClass="hide"
+            />
         </>
     )
 }
