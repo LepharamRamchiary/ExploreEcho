@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import AboutImage from "../assets/service.jpg";
+import AboutImage from "../assets/service.avif";
 
 function Service (){
     return (
