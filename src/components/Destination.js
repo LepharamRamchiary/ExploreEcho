@@ -1,6 +1,7 @@
 import React from 'react'
 import Kamakhya from "../assets/KamakhyaTemple.jpg"
 import Kamakhya1 from "../assets/kamakhya.jpg"
+import "./DestinationStyle.css"
 
 const Destination = () => {
     return (
@@ -14,8 +15,8 @@ const Destination = () => {
                 </div>
 
                 <div className='image'>
-                    <img src={Kamakhya} alt='image'/>
-                    <img src={Kamakhya1} alt='image'/>
+                    <img src={Kamakhya} alt='img'/>
+                    <img src={Kamakhya1} alt='img'/>
                 </div>
             </div>
         </div>
