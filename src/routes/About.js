@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutImage from "../assets/about.webp";
+import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 function About (){
     return (
@@ -12,6 +14,8 @@ function About (){
                 title="About"
                 btnClass="hide"
             />
+            <AboutUs />
+            <Footer />
         </>
     )
 }
