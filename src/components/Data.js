@@ -8,7 +8,7 @@ class Data extends Component {
             <div className={this.props.className}>
                 <div className='des-text'>
                     <h2>{this.props.heading}</h2>
-                    <a href="/"><CiLocationOn />{this.props.location}</a>
+                    <a href={this.props.url}><CiLocationOn />{this.props.location}</a>
                     <p>{this.props.text}</p>
                 </div>
 
