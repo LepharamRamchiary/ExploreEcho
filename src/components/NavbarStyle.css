@@ -21,6 +21,11 @@
   cursor: pointer;
 }
 
+.navbar-items a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(6, auto);
