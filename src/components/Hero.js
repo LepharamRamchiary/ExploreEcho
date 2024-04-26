@@ -4,7 +4,13 @@ function Hero(props) {
     return (
         <>
             <div className={props.cName}>
-                <img src={props.heroImg} alt="HeroImage" />
+                {/* <img src={props.heroImg}/>
+                <video src={props.heroVi} autoPlay loop muted/> */}
+                {props.heroVi ? (
+                    <video src={props.heroVi} autoPlay loop muted />
+                ) : (
+                    <img src={props.heroImg} />
+                )}
                 <div className="hero-text">
                     <h1>{props.title}</h1>
                     <p>{props.text}</p>
