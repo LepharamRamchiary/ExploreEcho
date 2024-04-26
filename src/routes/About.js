@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-// import AboutImage from "../assets/about.webp";
+import AboutImage from "../assets/about.webp";
 import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
-import HeroVi from "../assets/about.mp4";
+// import HeroVi from "../assets/about.mp4";
 
 function About (){
     return (
@@ -11,8 +11,8 @@ function About (){
             <Navbar />
             <Hero
                 cName="hero-mid ve"
-                // heroImg={AboutImage}
-                heroVi = {HeroVi}
+                heroImg={AboutImage}
+                // heroVi = {HeroVi}
                 title="About"
                 btnClass="hide"
             />
