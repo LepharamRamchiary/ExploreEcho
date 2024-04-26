@@ -17,7 +17,7 @@ function Trip() {
             <div className="tripcard">
                 <TripData
                     location="Chirang,Assam"
-                    url="https://www.google.com/maps/place/Rang+Ghar/@26.9670171,94.6189785,17z/data=!4m6!3m5!1s0x374731c1f5c79b3b:0xcd0493d77c577d8a!8m2!3d26.9671228!4d94.619063!16s%2Fm%2F02ptkr2?entry=ttu"
+                    url="https://www.google.com/maps/place/Manas+National+Park/@26.8101791,91.2369083,17z/data=!3m1!4b1!4m6!3m5!1s0x37596e8ccb18febf:0x4bcf99d7c6732bfd!8m2!3d26.8101743!4d91.2394832!16s%2Fm%2F0262656?entry=ttu"
                     images={Mz}
                     heading="Manas National Park"
                     text="Manas National Park, nestled in Assam, India, is a haven for wildlife enthusiasts and nature lovers. Its lush forests, grasslands, and water bodies are home to diverse flora and fauna, including endangered species like the Bengal tiger and Indian rhinoceros. Safari tours offer thrilling opportunities to spot these magnificent creatures."
