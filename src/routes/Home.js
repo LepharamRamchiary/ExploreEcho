@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Destination from "../components/Destination";
-import Trip from "../components/Trip";
+// import Trip from "../components/Trip";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -19,7 +19,7 @@ function Home() {
             />
             <Destination />
 
-            <Trip />
+            {/* <Trip /> */}
 
             <Footer />
         </>
