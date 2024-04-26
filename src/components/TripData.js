@@ -1,5 +1,6 @@
 import React from 'react'
 import "./TripStyle.css";
+import { CiLocationOn } from "react-icons/ci";
 
 
 function TripData(props) {
@@ -9,7 +10,7 @@ function TripData(props) {
                 <img src={props.images} alt='iamge' />
             </div>
             <h4>{props.heading}</h4>
-            <a>{props.location}</a>
+            <a href={props.url}><CiLocationOn />{props.location}</a>
             <p>{props.text}</p>
         </div>
     )
